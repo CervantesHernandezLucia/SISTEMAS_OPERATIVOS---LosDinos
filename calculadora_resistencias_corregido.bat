@@ -28,6 +28,9 @@ echo Calculadora de Resistencias de 4 Bandas
 echo.
 echo Ingrese los colores de las bandas separados por espacios.
 echo.
+echo.
+echo.
+echo.
 echo Ejemplo: 1 2 100 5 (Marron, Rojo, Rojo como multiplicador, Oro como tolerancia)
 echo.
 echo 1. Marron, 2. Rojo, 3. Naranja, 4. Amarillo, 5. Verde, 6. Azul, 7. Morado, 8. Gris, 9. Blanco
@@ -35,6 +38,9 @@ echo.
 echo Multiplicador: Negro=1, Marron=10, Rojo=100, Naranja=1000, Amarillo=10000, Verde=100000, Azul=1000000, Morado=10000000
 echo.
 echo Tolerancia: Marron=1%%, Rojo=2%%, Oro=5%%, Plata=10%%
+echo.
+echo.
+echo.
 echo.
 
 set /p valores="Ingrese las bandas 1, 2, multiplicador y tolerancia: "
@@ -66,6 +72,9 @@ echo Calculadora de Resistencias de 5 Bandas
 echo.
 echo Ingrese los colores de las bandas separados por espacios.
 echo.
+echo.
+echo.
+echo.
 echo Ejemplo: 1 2 3 100 5 (Marron, Rojo, Naranja, Naranja como multiplicador, Oro como tolerancia)
 echo.
 echo 1. Marron, 2. Rojo, 3. Naranja, 4. Amarillo, 5. Verde, 6. Azul, 7. Morado, 8. Gris, 9. Blanco
@@ -73,6 +82,9 @@ echo.
 echo Multiplicador: Negro=1, Marron=10, Rojo=100, Naranja=1000, Amarillo=10000, Verde=100000, Azul=1000000, Morado=10000000
 echo.
 echo Tolerancia: Marron=1%%, Rojo=2%%, Oro=5%%, Plata=10%%
+echo.
+echo.
+echo.
 echo.
 
 set /p valores="Ingrese las bandas 1, 2, 3, multiplicador y tolerancia: "
@@ -105,6 +117,9 @@ echo Calculadora de Resistencias de 6 Bandas
 echo.
 echo Ingrese los colores de las bandas separados por espacios.
 echo.
+echo.
+echo.
+echo.
 echo Ejemplo: 1 2 3 100 5 10 (Marron, Rojo, Naranja, Naranja como multiplicador, Oro como tolerancia, Azul como TCR)
 echo.
 echo 1. Marron, 2. Rojo, 3. Naranja, 4. Amarillo, 5. Verde, 6. Azul, 7. Morado, 8. Gris, 9. Blanco
@@ -114,6 +129,9 @@ echo.
 echo Tolerancia: Marron=1%%, Rojo=2%%, Oro=5%%, Plata=10%%
 echo.
 echo TCR: Negro=250ppm/C, Marron=100ppm/C, Rojo=50ppm/C, Naranja=15ppm/C, Amarillo=25ppm/C, Verde=20ppm/C, Azul=10ppm/C, Morado=5ppm/C, Gris=1ppm/C
+echo.
+echo.
+echo.
 echo.
 
 set /p valores="Ingrese las bandas 1, 2, 3, multiplicador, tolerancia y TCR: "
