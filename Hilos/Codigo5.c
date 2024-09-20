@@ -37,7 +37,7 @@ int main(void) {
             printf("\t\t%s\n", buffer);
 
             srand(time(NULL));
-            int numTareas = rand() % 11; // Entre 0 y 10
+            int numTareas = rand() % 11; 
             sprintf(despedidaHijo, "Tengo %d tareas.", numTareas);
             tamDespedidaHijo = strlen(despedidaHijo) + 1;
 
@@ -47,7 +47,7 @@ int main(void) {
             close(fd2[1]);
             break;
 
-        default: // Proceso padre
+        default: 
             close(fd[0]);
 
             write(fd[1], saludoPadre, tamSaludoPadre);
@@ -56,7 +56,7 @@ int main(void) {
 
             close(fd[1]);
 
-            close(fd2[1]); // Cerrar el extremo de escritura
+            close(fd2[1]); 
             read(fd2[0], despedidaHijo, tamDespedidaHijo);
             printf("\t\t%s\n", despedidaHijo);
             break;
